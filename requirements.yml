@@ -1,0 +1,5 @@
+collections:
+  # Install a collection from Ansible Galaxy.
+  - name: netbox.netbox
+    version: "*"
+    source: https://galaxy.ansible.com
