@@ -6,7 +6,7 @@
     - name: Create site within Netbox with only required information
       netbox_site:
         netbox_url: http://netbox.local
-        netbox_token: thisIsMyToken
+        netbox_token: cfd7398f441e98094b656ea9a0263b06c5e87f2
         data:
-          name: Test - Colorado
+          name: My Own Site
         state: present
