@@ -1,5 +1,5 @@
 collections:
-  # Install a collection from Ansible Galaxy.
   - name: netbox.netbox
+    source: https://github.com/zedr/ansible_modules.git
     version: "*"
-    source: https://galaxy.ansible.com
+    type: git
