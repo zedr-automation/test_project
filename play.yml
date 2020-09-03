@@ -1,4 +1,5 @@
-  connection: local
+---
+- connection: local
   hosts: localhost
   gather_facts: False
   tasks:
