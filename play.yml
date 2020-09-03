@@ -4,7 +4,7 @@
   gather_facts: False
   tasks:
     - name: Create site within Netbox with only required information
-      netbox_community.ansible_modules.netbox_site:
+      netbox.netbox.netbox_site:
         netbox_url: http://netbox.local
         netbox_token: cfd7398f441e98094b656ea9a0263b06c5e87f2
         data:
