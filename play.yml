@@ -3,14 +3,14 @@
   hosts: localhost
   gather_facts: False
   tasks:
-   - name: Create device role within Netbox with only required information
+    - name: Create device role within Netbox with only required information
       netbox_device_role:
-        netbox_url: http://netbox.local
-        netbox_token: cfd7398f441e98094b656ea9a0263b06c5e87f2
-        data:
-          name: Test device role
-          color: FFFFFF
-        state: present
+         netbox_url: http://netbox.local
+       netbox_token: cfd7398f441e98094b656ea9a0263b06c5e87f2
+         data:
+           name: Test device role
+           color: FFFFFF
+         state: present
 
     - name: Create site within Netbox with only required information
       netbox_site:
