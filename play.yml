@@ -6,9 +6,7 @@
     - netbox.netbox
   tasks:
     - name: Create device role within Netbox with only required information
-      include_role:
-        name: netbox_device_role
-      vars:
+      netbox_device:
         netbox_url: http://netbox.local
         netbox_token: cfd7398f441e98094b656ea9a0263b06c5e87f2
         data:
