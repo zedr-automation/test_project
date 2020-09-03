@@ -2,6 +2,8 @@
 - connection: local
   hosts: localhost
   gather_facts: False
+  collections:
+    - netbox.netbox
   tasks:
     - name: Create device role within Netbox with only required information
       netbox_device_role:
