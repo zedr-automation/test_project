@@ -1,5 +1,6 @@
 
-- name: netbox.netbox
-  source: https://github.com/zedr/ansible_modules.git
-  version: "*"
-  type: git
+collections:
+  - name: netbox.netbox
+    source: https://github.com/zedr/ansible_modules.git
+    version: "*"
+    type: git
